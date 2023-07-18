@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.alert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.alert-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.icon {
+  height: 70px;
+  min-width: 30px;
+  margin-right: 10px;
+}
+.message-container {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .message-container {
+    margin-top: 0px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.text {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 20px;
+  }
+}
+
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
